@@ -9,11 +9,13 @@
     "server": "nodemon src/server"
   },
   "dependencies": {
+    "dotenv": "^16.4.5",
     "express": "^4.21.1",
     "mongoose": "^8.8.0"
   },
   "devDependencies": {
     "@types/express": "^5.0.0",
-    "@types/mongoose": "^5.11.97"
+    "@types/mongoose": "^5.11.97",
+    "cross-env": "^7.0.3"
   }
 }

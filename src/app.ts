@@ -30,7 +30,12 @@ class App {
     {
         try
         {
-            const connectString = "mongodb+srv://21521942:xYlBvdkWgir3kN19@master.uqz2k.mongodb.net/?retryWrites=true&w=majority&appName=Master";
+            const connectString = process.env.MONGODB_URI;
+            if (!connectString)
+            {
+                console.log('connect string is invalid');
+                return;
+            }
             mongoose.connect(connectString);
             console.log('Database connected');
         }catch(error)
