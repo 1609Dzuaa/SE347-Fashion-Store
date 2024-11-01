@@ -1,1 +1,1 @@
-# SE347-Fashion-Store
+# Fashion Store Website

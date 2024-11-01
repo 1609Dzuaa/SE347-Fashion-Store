@@ -1,0 +1,8 @@
+{
+  "name": "se347-fashion-store-website",
+  "version": "1.0.0",
+  "description": "A project for the course SE347",
+  "main": "src/server.ts",
+  "author": "Group 8",
+  "license": "MIT"
+}
