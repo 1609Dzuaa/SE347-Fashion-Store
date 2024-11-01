@@ -4,5 +4,15 @@
   "description": "A project for the course SE347",
   "main": "src/server.ts",
   "author": "Group 8",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+  "server": "nodemon src/server"
+},
+
+  "dependencies": {
+    "express": "^4.21.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0"
+  }
 }
